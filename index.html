@@ -4,6 +4,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/brands.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/solid.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <meta property="og:title" content="WPI Esports"/>
   <meta property="og:type" content="website"/>
   <meta property="og:image" content="https://i.imgur.com/brBagh4.jpg"/>
@@ -156,7 +158,7 @@
         <div class="card card--dark">
           <h5 class="card-header card-header--dark">League of Legends</h5>
           <div class="card-body">
-            <img src="img/collegiate-lol-2.png" class="card-img">
+            <img src="img/collegiate-lol.png" class="card-img">
             <h5 class="card-title">Collegiate League of Legends</h5>
             <p class="card-text">Signups close on September 15, 2020 at 11:59PM EST</p>
             <a class="btn btn-light w-100" href="https://forms.gle/nwoJHTwnT8ZrSgN66" target="_blank">Sign Up</a>
@@ -194,6 +196,38 @@
         <a class="btn btn-success" href="https://forms.gle/cBmibbdrXuRm4VJm8" target="_blank">
           <i class="fas fa-paper-plane mr-1"></i> Join mailing list
         </a>
+      </div>
+    </div>
+    <br>
+    <div id="gallery" class="card w-100">
+      <h3 class="card-header">Photo Gallery</h3>
+      <div class="card-body">
+        <div id="photo-gallery" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#photo-gallery" data-slide-to="0" class="active"></li>
+            <li data-target="#photo-gallery" data-slide-to="1"></li>
+            <li data-target="#photo-gallery" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/gallery/lan-ow-1.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="img/gallery/lan-r6-1.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="img/gallery/lan-table-1.png" class="d-block w-100">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#photo-gallery" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#photo-gallery" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
     </div>
     <br>
